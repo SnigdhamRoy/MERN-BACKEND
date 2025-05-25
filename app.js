@@ -57,3 +57,12 @@ app.use((error, req, res, next) => {
   .catch(err => {
     console.log(err);
   });
+
+app.use(express.json());
+app.get('/api/users', (req, res) => {
+  res.json({ message: 'Vercel backend is working!' });
+});
+
+// Export the handler for Vercel
+module.exports = app;
+module.exports.handler = serverless(app);
