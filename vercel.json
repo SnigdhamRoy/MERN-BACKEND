@@ -1,6 +1,6 @@
 {
   "version": 2,
   "routes": [
-    { "src": "/api/users/(.*)", "dest": "/app.js" }
+    { "src": "/app.js/(.*)", "dest": "/api/users" } 
   ]
 }
