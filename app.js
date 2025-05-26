@@ -58,3 +58,4 @@ app.use((error, req, res, next) => {
     console.log(err);
   });
   
+  module.exports = app;
