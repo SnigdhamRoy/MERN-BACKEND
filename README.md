@@ -1,3 +1,6 @@
+MERN PROJECT
+
+
 The BACKEND is built using Node.js and Express.js.
 Routing, controllers, and user validation are implemented to structure the application and handle client requests effectively.
 
