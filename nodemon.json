@@ -3,6 +3,7 @@
         "DB_USER":"Snigdham",
         "DB_PASSWORD":"Snigdham007",
         "DB_NAME":"mern-prod",
+        "GOOGLE_API_KEY":"...",
         "JWT_KEY":"supersecret_dont_share"
 
     }
